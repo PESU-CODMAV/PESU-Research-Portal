@@ -1,8 +1,5 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const professorSchema = new mongoose.Schema()
-  
+const professorSchema = new mongoose.Schema();
 
-
-
-module.exports = mongoose.model('professor', professorSchema,'professor');
+module.exports = mongoose.model("professor", professorSchema, "professor");
